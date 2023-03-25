@@ -1,0 +1,7 @@
+1. To install django - pip install django
+
+2. django-admin 
+
+3. To create new project - django-admin startproject projectname
+
+4. To start the server - python manage.py runserver
