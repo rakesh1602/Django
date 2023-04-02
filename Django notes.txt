@@ -5,3 +5,23 @@
 3. To create new project - django-admin startproject projectname
 
 4. To start the server - python manage.py runserver
+
+5. To create app - python manage.py startapp appname
+      -- register it into settings.py - Installed app
+
+6. To use URLs in app - use include in main app. 
+   -- from firstapp import urls as u
+   --  path("", include(u))
+
+7. To use html page use render (re, html)
+  -- html should be in templates folder.
+
+8. create table in model class to create entity-
+	-- use models.Model in class name() bracket
+	-- to create table python use python manage.py makemigratons appname
+	-- to create table in datbase use python migrate
+
+	-- to give default name to the entity -
+
+		class Meta:
+			db_table="name"
